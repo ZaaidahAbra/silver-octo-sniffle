@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(245, 242, 239);
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin:80px auto 100px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    z-index: 1000;
+}
+
+.navbar a, .footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover, .footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 35px;
+    margin-top: 60px;
+}
+
+button{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #064708;
+}
+
+.product-card{
+    border-radius: 8px;
+    border: 3px solid #333;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h2,p{
+    margin: 10px 0;
+    color: #555;
+    font-size: 1em;
+}
+
+footer{
+    position: fixed;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media (max-width: 1000px) {
+    .product-container {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media(max-width: 768px){
+    .product-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 480px){
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+}

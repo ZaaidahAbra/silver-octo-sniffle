@@ -83,6 +83,14 @@ img{
     border-radius: 5px;
 }
 
+#zoom-hover{
+    transform: transform 0.3s ease;
+}
+
+#zoom-hover:hover{
+transform: scale(1.05);
+}
+
 h2,p{
     margin: 10px 0;
     color: #555;
@@ -100,12 +108,6 @@ footer{
     display: flex;
     justify-content: center;
     gap: 50px;
-}
-
-@media (max-width: 1000px) {
-    .product-container {
-        grid-template-columns: repeat(2, 300px);
-    }
 }
 
 @media(max-width: 768px){

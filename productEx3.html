@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emerald Estates Inc.</title>
+  <link rel="stylesheet" href="styleEx3.css"/>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="roboto-mono-logo">Emerald Estates Inc.</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#products" class="nav-item">Properties</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+   <section id="home" class="hero">
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>Find Your Dream Home Today !</h1>
+            <p>Luxury properties tailored to your lifestyle.</p>
+            <br></br>
+            <a href="#contact" class="cta-button">Schedule a Visit</a>
+
+            <div class="search-bar">
+                <select>
+                    <option  value="#">Buy</option>
+                    <option  value="#">Rent</option>
+                </select>
+                
+                <select >
+                    <option value="#">Residential</option>
+                    <option value="#">Residential Development</option>
+                    <option value="#">Commerical</option>
+                </select>
+
+                <input type="text" id="Area" placeholder="Type Area or Suburb Name">
+                <button  class="button" type="button" >Search</button>
+            </div>
+        </div>
+    </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <br></br>
+    <p>At Emerald Estates Inc. our mission is to show you the future of real estate.</p>
+    <p>Our goal is to provide the highest quality service to our customers by ensuring we hire passionate, knowledgeable, talented</p>
+    <p>and like-minded individuals that will assist in providing you with the finest real estate Cape Town has to offer.</p>
+    <br></br>
+    <p>The empowered team at Emerald Estates Inc will revolutionize the way we operate on daily basis through building a culture of ingenuity</p>
+    <p>and creativeness. We will cultivate unconventional and modern marketing to further enhance your real estate journey for both buyers and sellers.</p>
+  </section>
+
+  <!-- Properties Section -->
+  <section id="products" class="properties">
+    <h2>Featured Properties</h2>
+
+    <div class="property-cards">
+    
+      <div class="card">
+        <img src="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/354/residential/2025/5/354_43d098b58ccb4747a3b75b03f546e182.jpg" alt="Property 1">
+        <div class="card-content">
+          <h3>5 Bedroom Freehold For Sale in Goodwood Park</h3>
+          <p>Price: R4,350,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/354/residential/2025/5/354_d50e9c4c383e44aca7167a7ee2b350f8.jpg" alt="Property 1">
+        <div class="card-content">
+          <h3>1 Bedroom Apartment For Sale in Braamfontein Werf</h3>
+          <p>Price: R1,200,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/354/residential/2025/4/354_6fc074e928a345618c113fc1611b6e7f.jpg" alt="Property 1">
+        <div class="card-content">
+          <h3>3 Bedroom Apartment For Sale in Bantry Bay</h3>
+          <p>Price: R40,000,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/354/residential/2023/11/354_ec5d6d7804e64603866a8929ee18673d.jpg" alt="Property 1">
+        <div class="card-content">
+          <h3>2 Bedroom Apartment For Sale in Waterfront</h3>
+          <p>Price: R14,995,000</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/354/residential/2024/11/354_ffcf4205f7704c768fdf0ef569a895cb.jpg" alt="Property 4">
+        <div class="card-content">
+          <h3>4 Bedroom House For Sale in Baronetcy Estate</h3>
+          <p>Price: R14,335,000 </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://d21tw07c6rnmp0.cloudfront.net/media/uploads/354/residential/2024/5/354_64064974416c47f1a6186782d48ed2e7.jpg" alt="Property 5">
+        <div class="card-content">
+          <h3>3 Bedroom Penthouse For Sale in Platterkloof</h3>
+          <p>Price: R32,000,000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+   <div><h1 id="contact" class="contact">Contact Form</h1></div>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>We'd love to get in contact with our future home owners!</p>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <input type="tel" placeholder="Your Phone Number" required/>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com" target="_blank" class="social-icon"><img src="https://static.vecteezy.com/system/resources/previews/042/387/654/non_2x/instagram-button-icon-set-instagram-screen-social-media-and-social-network-interface-template-stories-user-button-symbol-sign-logo-stories-liked-editorial-free-png.png">Instagram</a>
+      <a href="https://www.tiktok.com" target="_blank" class="social-icon"><img src="https://img.icons8.com/?size=100&id=3veRWJpxPPDH&format=png&color=000000">TikTok</a>
+      <a href="https://wa.me/1234567890" target="_blank" class="social-icon"><img src="https://img.icons8.com/?size=100&id=QkXeKixybttw&format=png&color=000000" >WhatsApp</a>
+    </div>
+    <p>© 2025 Emerald Estates. All rights reserved.</p>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const cards = document.querySelectorAll('.card');
+        
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        }, { threshold: 0.1 });
+        
+        cards.forEach(card => {
+          observer.observe(card);
+        });
+      });
+    </script>
+
+</body>
+</html>
